@@ -212,12 +212,12 @@ section {
 }
 
 .home__blob {
-  width: 200px;
+  width: 250px;
   fill: var(--first-color);
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 250px;
 }
 
 .home__data {
@@ -474,6 +474,9 @@ section {
 }
 
 /* ======== QUALIFICATION ======== */
+.qual{
+  background-color: black;
+}
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -548,6 +551,7 @@ section {
 
 /* ======== SERVICES ======== */
 .services__container {
+
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -1072,7 +1076,7 @@ section {
   }
 
   .about__img{
-    width: 350px;
+    width: 400px;
   }
 
   .about__description{
